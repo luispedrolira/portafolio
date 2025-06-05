@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    background: #0a0a0a;
+    color: #00ff41;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.matrix-column {
+    position: absolute;
+    top: -100px;
+    color: #00ff41;
+    font-size: 14px;
+    line-height: 1.2;
+    animation: matrix-fall linear infinite;
+}
+
+@keyframes matrix-fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+.terminal {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid #00ff41;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+}
+
+.terminal-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #00ff41;
+    margin-bottom: 20px;
+}
+
+.terminal-buttons {
+    display: flex;
+    gap: 8px;
+    margin-right: 15px;
+}
+
+.btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.btn.close {
+    background: #ff5f56;
+}
+
+.btn.minimize {
+    background: #ffbd2e;
+}
+
+.btn.maximize {
+    background: #27ca3f;
+}
+
+.terminal-title {
+    color: #00ff41;
+    font-size: 14px;
+}
+
+.output {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.prompt {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.prompt-symbol {
+    color: #00ff41;
+    margin-right: 10px;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-line input {
+    background: transparent;
+    border: none;
+    color: #00ff41;
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    outline: none;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.ascii-art {
+    color: #00ff41;
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.command-output {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.project-card {
+    border: 1px solid #00ff41;
+    padding: 15px;
+    margin: 10px 0;
+    background: rgba(0, 255, 65, 0.1);
+}
+
+.skill-bar {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.skill-name {
+    width: 120px;
+    display: inline-block;
+}
+
+.bar {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #00ff41;
+    margin: 0 10px;
+    position: relative;
+}
+
+.bar-fill {
+    height: 100%;
+    background: #00ff41;
+    transition: width 1s ease;
+}
+
+.typing {
+    animation: typing 0.02s steps(1) infinite;
+}
+
+@keyframes typing {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.error {
+    color: #ff4444;
+}
+
+.success {
+    color: #44ff44;
+}
+
+.warning {
+    color: #ffff44;
+}
+
+.link {
+    color: #4db8ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .terminal {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .skill-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bar {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .ascii-art {
+        font-size: 8px;
+    }
+}
