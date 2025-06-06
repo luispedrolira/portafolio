@@ -32,28 +32,25 @@ const commands = {
     <div class="project-card">
         <div class="success">🌐 E-Commerce Platform</div>
         <div><strong>Descripción:</strong> Plataforma completa de comercio electrónico</div>
-        <div><strong>Tecnologías:</strong> React, Node.js, MongoDB, Express</div>
-        <div><strong>Características:</strong> Carrito de compras, pagos, administración</div>
-        <div><strong>Repositorio:</strong> <span class="link">github.com/tuusuario/ecommerce</span></div>
-        <div><strong>Demo:</strong> <span class="link">ecommerce-demo.netlify.app</span></div>
+        <div><strong>Tecnologías:</strong> React, Node.js, Express</div>
+        <div><strong>Repositorio E-commerce:</strong> <a href="https://github.com/luispedrolira/clutchzone.git"  target="_blank" rel="noopener noreferrer" class="link">https://github.com/luispedrolira/clutchzone.git</a></div>
+        <div><strong>Repositorio API E-commerce:</strong> <a href="https://github.com/luispedrolira/api-clutchzone.git" target="_blank" rel="noopener noreferrer" class="link">https://github.com/luispedrolira/api-clutchzone.git</a></div>
+        <div><strong>Demo:</strong> <a  href="https://luispedrolira.github.io/ecommerceWeb/" target="_blank" rel="noopener noreferrer" class="link">https://luispedrolira.github.io/ecommerceWeb/</a></div>
     </div>
     
     <div class="project-card">
-        <div class="success">📱 Task Manager App</div>
-        <div><strong>Descripción:</strong> Aplicación de gestión de tareas con drag & drop</div>
-        <div><strong>Tecnologías:</strong> React, LocalStorage, CSS Grid</div>
-        <div><strong>Características:</strong> CRUD completo, filtros, categorías</div>
-        <div><strong>Repositorio:</strong> <span class="link">github.com/tuusuario/task-manager</span></div>
-        <div><strong>Demo:</strong> <span class="link">task-manager-demo.netlify.app</span></div>
+        <div class="success">Lista de personajes Breaking Bad</div>
+        <div><strong>Tecnologías:</strong> React CDN, CSS</div>
+        <div><strong>Repositorio:</strong> <a href="https://github.com/luispedrolira/react-cdn/tree/master/use-memo" target="_blank" rel="noopener noreferrer" class="link">https://github.com/luispedrolira/react-cdn/use-memo</a></div>
+        <div><strong>Demo:</strong> <a href="https://www.awita.site/usuarios/lir23669/react-cdn/use-memo/" target="_blank" rel="noopener noreferrer" class="link">https://luispedrolira.github.io/use-memo</a></div>
     </div>
     
     <div class="project-card">
-        <div class="success">🎵 Music Player</div>
-        <div><strong>Descripción:</strong> Reproductor de música web interactivo</div>
-        <div><strong>Tecnologías:</strong> JavaScript, Web Audio API, CSS3</div>
-        <div><strong>Características:</strong> Playlist, visualizador, controles</div>
-        <div><strong>Repositorio:</strong> <span class="link">github.com/tuusuario/music-player</span></div>
-        <div><strong>Demo:</strong> <span class="link">music-player-demo.netlify.app</span></div>
+        <div class="success">Cronometro "Apple"</div>
+        <div><strong>Descripción:</strong> Clone del cronometro de Apple</div>
+        <div><strong>Tecnologías:</strong> React CDN, CSS3</div>
+        <div><strong>Repositorio:</strong> <a href="https://github.com/luispedrolira/react-cdn/tree/master/use-ref" class="link">https://github.com/luispedrolira/react-cdn/use-ref</span></div>
+        <div><strong>Demo:</strong> <a href="https://www.awita.site/usuarios/lir23669/react-cdn/use-ref/" class="link">https://luispedrolira.github.io/use-ref</span></div>
     </div>
 </div>`,
 
@@ -131,11 +128,11 @@ const commands = {
     <div class="success">═══ REDES SOCIALES ═══</div>
     <br>
     <div>📧 Email: <span class="warning">luispelirak130@gmail.com</span></div>
-    <div>🐙 GitHub: <a href="https://github.com/luispedrolira" class="link">https://github.com/luispedrolira</a></div>
-    <div>💼 LinkedIn: <a href="https://www.linkedin.com/in/luispedrolira/" class="link">https://www.linkedin.com/in/luispedrolira/</a></div>
-    <div>📷 Instagram: <a href="https://www.instagram.com/luispedrolira/" class="link">https://www.instagram.com/luispedrolira/</a></div>
+    <div>🐙 GitHub: <a href="https://github.com/luispedrolira" target="_blank" rel="noopener noreferrer" class="link">https://github.com/luispedrolira</a></div>
+    <div>💼 LinkedIn: <a href="https://www.linkedin.com/in/luispedrolira/" target="_blank" rel="noopener noreferrer" class="link">https://www.linkedin.com/in/luispedrolira/</a></div>
+    <div>📷 Instagram: <a href="https://www.instagram.com/luispedrolira/" target="_blank" rel="noopener noreferrer" class="link">https://www.instagram.com/luispedrolira/</a></div>
     <br>
-    <div class="success">¡Sígueme para ver mis últimos proyectos!</div>
+    <div class="success">¡Contactame :)!</div>
 </div>`,
 
   clear: () => {
