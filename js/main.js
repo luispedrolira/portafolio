@@ -49,8 +49,8 @@ const commands = {
         <div class="success">Cronometro "Apple"</div>
         <div><strong>Descripción:</strong> Clone del cronometro de Apple</div>
         <div><strong>Tecnologías:</strong> React CDN, CSS3</div>
-        <div><strong>Repositorio:</strong> <a href="https://github.com/luispedrolira/react-cdn/tree/master/use-ref" class="link">https://github.com/luispedrolira/react-cdn/use-ref</span></div>
-        <div><strong>Demo:</strong> <a href="https://www.awita.site/usuarios/lir23669/react-cdn/use-ref/" class="link">https://luispedrolira.github.io/use-ref</span></div>
+        <div><strong>Repositorio:</strong> <a href="https://github.com/luispedrolira/react-cdn/tree/master/use-ref" target="_blank" rel="noopener noreferrer" class="link">https://github.com/luispedrolira/react-cdn/use-ref</span></div>
+        <div><strong>Demo:</strong> <a href="https://www.awita.site/usuarios/lir23669/react-cdn/use-ref/" target="_blank" rel="noopener noreferrer" class="link">https://luispedrolira.github.io/use-ref</span></div>
     </div>
 </div>`,
 
